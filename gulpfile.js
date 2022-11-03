@@ -22,7 +22,7 @@ gulp.task('resize', function () {
 });
 
 gulp.task('del', ['resize'], function () {
-    return del(['images/*.jpg']);
+    return del(['images/*.*']);
 });
 
 // compile scss to css
